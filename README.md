@@ -4,9 +4,11 @@ Let friends control the VLC player you screen-share in Discord. Run this bot on 
 
 Discord screen sharing carries the video and audio. This is a self-hosted remote for one VLC instance, server and channel. It does not broadcast video as a bot or require a Discord Activity, public web server or paid API.
 
+**New here? Follow the [step-by-step setup guide](docs/SETUP.md).** It covers downloading without Git, creating your bot, filling in `.env`, starting your first session and building a playlist. Friends can skip straight to [joining a watch session](docs/SETUP.md#for-friends-joining-a-session).
+
 ## Quick start
 
-Install **Windows 10/11**, **Python 3.11+** (available as `python` in PowerShell), **VLC 3.x** and Git. Use a standard VLC installation, or add your VLC executable's folder to `PATH`.
+Install **Windows 10/11**, **Python 3.11+** (available as `python` in PowerShell) and **VLC 3.x**. The clone commands below also require Git; the [ZIP setup guide](docs/SETUP.md) does not. Use a standard VLC installation, or add your VLC executable's folder to `PATH`.
 
 ```powershell
 git clone https://github.com/Waifuverse/discord-vlc-bot.git
