@@ -1,0 +1,46 @@
+# Local credentials and backups (the blank template is intentionally public).
+.env
+.env.*
+*.env
+*.env.*
+!config.env.template
+
+# Runtime state, logs and dependencies.
+.venv/
+venv/
+__pycache__/
+*.pyc
+.state/
+*.log
+*.pid
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local media and private review notes.
+media/*
+!media/README.md
+LIBRARY_REVIEW.md
+*.mp4
+*.mkv
+*.avi
+*.webm
+*.mov
+*.m4v
+*.ts
+*.m2ts
+*.wav
+*.mp3
+*.srt
+*.ass
+
+# Editor / OS files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
