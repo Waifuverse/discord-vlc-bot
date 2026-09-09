@@ -144,3 +144,7 @@ Reopen **Shows** to rescan after adding videos. Keep files inside `MEDIA_ROOT`; 
 Tests use local fixtures and do not need a Discord token or installed VLC. GitHub Actions runs them on Windows with Python 3.11, 3.12 and 3.13, and checks tracked files for private configuration. See [VERIFICATION.md](VERIFICATION.md) for local integration results and the live acceptance checklist, [CONTRIBUTING.md](CONTRIBUTING.md) for development, [SECURITY.md](SECURITY.md) for deployment boundaries and [docs/RELEASING.md](docs/RELEASING.md) for safe publication.
 
 References: [Discord bot setup](https://docs.discord.com/developers/quick-start/getting-started), [discord.py documentation](https://discordpy.readthedocs.io/en/stable/) and [VLC HTTP command reference](https://raw.githubusercontent.com/videolan/vlc/3.0.x/share/lua/http/requests/README.txt).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). You can use, modify and redistribute it, including commercially, while preserving the copyright and license notices. It is provided without warranty. Dependencies retain their own licenses.

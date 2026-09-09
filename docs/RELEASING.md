@@ -1,7 +1,7 @@
 # Public release checks
 
 1. Run the tests and `python -m pip check`.
-2. Review the staged file list. It should contain source, scripts, documentation, tests, the blank template and GitHub workflow only.
+2. Review the staged file list. It should contain source, scripts, documentation, tests, the MIT license, the blank template and GitHub workflow only.
 3. Run `python scripts/check_public_files.py`. This checks the **Git index**, so stage intended changes first.
 4. Confirm `.env`, `.state` and `.venv` remain ignored with `git check-ignore`.
 5. After committing, run `python scripts/check_public_files.py --ref HEAD` and verify a clean checkout can run `setup.ps1` to create a fresh `.env` without requiring any maintainer credentials.
